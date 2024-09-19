@@ -1,0 +1,700 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=auto>
+
+
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/title.png">
+  <link rel="icon" href="/img/title.png">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="冯冯">
+  <meta name="keywords" content="PMP">
+  
+    <meta name="description" content="业务环境待更新。。。 人员1.建设团队（塔克曼阶梯理论）形成阶段：团队成员相互认识，并了解项目情况及他们在项目中的正式角色与职责在这一阶段，团队成员倾向于相互独立，不一定开诚布公（关键字：独立，自我，不引发冲突，组建） 震荡阶段：团队开始从事项目工作、制定技术决策和讨论项目管理方法（关键字：冲突，反对，争执） 规范阶段：团队成员开始协同工作，并调整各自的工作习惯和行为来支持团队，团队成员会学习相互">
+<meta property="og:type" content="article">
+<meta property="og:title" content="PMP易错易忘易混淆知识点总结">
+<meta property="og:url" content="http://example.com/2024/09/18/PMP%E6%98%93%E9%94%99%E6%98%93%E5%BF%98%E6%98%93%E6%B7%B7%E6%B7%86%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/index.html">
+<meta property="og:site_name" content="冯冯">
+<meta property="og:description" content="业务环境待更新。。。 人员1.建设团队（塔克曼阶梯理论）形成阶段：团队成员相互认识，并了解项目情况及他们在项目中的正式角色与职责在这一阶段，团队成员倾向于相互独立，不一定开诚布公（关键字：独立，自我，不引发冲突，组建） 震荡阶段：团队开始从事项目工作、制定技术决策和讨论项目管理方法（关键字：冲突，反对，争执） 规范阶段：团队成员开始协同工作，并调整各自的工作习惯和行为来支持团队，团队成员会学习相互">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://example.com/img/%E9%B1%BC%E9%AA%A8%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/img/%E5%B8%95%E7%B4%AF%E6%89%98%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/img/%E7%9B%B4%E6%96%B9%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/img/%E6%8E%A7%E5%88%B6%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/img/%E6%95%A3%E7%82%B9%E5%9B%BE.png">
+<meta property="og:image" content="http://example.com/img/%E4%B8%89%E7%82%B9%E4%BC%B0%E7%AE%97.png">
+<meta property="article:published_time" content="2024-09-18T02:09:53.000Z">
+<meta property="article:modified_time" content="2024-09-19T03:14:49.074Z">
+<meta property="article:author" content="冯冯">
+<meta property="article:tag" content="PMP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://example.com/img/%E9%B1%BC%E9%AA%A8%E5%9B%BE.png">
+  
+  
+    <meta name="referrer" content="no-referrer-when-downgrade">
+  
+  
+  <title>PMP易错易忘易混淆知识点总结 - 冯冯</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1749284_5i9bdhy70f8.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/c/font_1736178_k526ubmyhba.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"example.com","root":"/","version":"1.9.8","typing":{"enable":true,"typeSpeed":100,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"right","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":false,"follow_dnt":true,"baidu":null,"google":{"measurement_id":null},"tencent":{"sid":null,"cid":null},"leancloud":{"app_id":null,"app_key":null,"server_url":null,"path":"window.location.pathname","ignore_local":false},"umami":{"src":null,"website_id":null,"domains":null,"start_time":"2024-01-01T00:00:00.000Z","token":null,"api_server":null}},"search_path":"/local-search.xml","include_content_in_search":true};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+
+  
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>冯冯</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/" target="_self">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/" target="_self">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/" target="_self">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/" target="_self">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('/img/wukong.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="PMP易错易忘易混淆知识点总结"></span>
+          
+        </div>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2024-09-18 10:09" pubdate>
+          2024年9月18日 上午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          1k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          9 分钟
+        
+      </span>
+    
+
+    
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <h1 id="seo-header">PMP易错易忘易混淆知识点总结</h1>
+            
+            
+              <div class="markdown-body">
+                
+                <h1 id="业务环境"><a href="#业务环境" class="headerlink" title="业务环境"></a>业务环境</h1><p>待更新。。。</p>
+<h1 id="人员"><a href="#人员" class="headerlink" title="人员"></a>人员</h1><h4 id="1-建设团队（塔克曼阶梯理论）"><a href="#1-建设团队（塔克曼阶梯理论）" class="headerlink" title="1.建设团队（塔克曼阶梯理论）"></a>1.建设团队（塔克曼阶梯理论）</h4><p>形成阶段：团队成员相互认识，并了解项目情况及他们在项目中的正式角色与职责在这一阶段，团队成员倾向于相互独立，不一定开诚布公（关键字：独立，自我，不引发冲突，组建）</p>
+<p>震荡阶段：团队开始从事项目工作、制定技术决策和讨论项目管理方法（关键字：冲突，反对，争执）</p>
+<p>规范阶段：团队成员开始协同工作，并调整各自的工作习惯和行为来支持团队，团队成员会学习相互信任（关键字：信任，开始建立，规范，喜欢互动）</p>
+<p>成熟阶段：团队就像一个组织有序的单位那样工作，团队成员之间相互依靠，平稳高效地解决问题（关键字：组织有序，相互协作）</p>
+<p>解散阶段：团队完成所有工作，团队成员离开项目（关键字：结束）</p>
+<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><h4 id="1-合同类型（买方风险从小到大，做题先判断是总价还是成本，成本类合同相对于总价类合同容易变更）"><a href="#1-合同类型（买方风险从小到大，做题先判断是总价还是成本，成本类合同相对于总价类合同容易变更）" class="headerlink" title="1.合同类型（买方风险从小到大，做题先判断是总价还是成本，成本类合同相对于总价类合同容易变更）"></a>1.合同类型（买方风险从小到大，做题先判断是总价还是成本，成本类合同相对于总价类合同容易变更）</h4><p>固定总价合同：范围明确且不变</p>
+<p>总价加激励合同：设定上限，同步目标</p>
+<p>总价加经济价格调整：时间很长，不同货币</p>
+<p>工料合同：范围不明确，聘请专家（适用于在无法编排出准确的工作说明书的情况下扩充人员、聘用专家或寻求外部支持的情况）</p>
+<p>成本加奖励费：主观奖励，无权申诉</p>
+<p>成本加激励费：同步目标（按绩效分配费用）</p>
+<p>成本加固定费：实报实销，范围会有很大的变化</p>
+<h4 id="2-项目章程"><a href="#2-项目章程" class="headerlink" title="2.项目章程"></a>2.项目章程</h4><p>项目章程是由项目启动人或发起人发布的，正式批准项目成立，并授权项目经理使用组织资源开展项目活动的文件。它记录了关于项目和项目预期交付的产品、服务或成果的高层级信息，例如高层级需求、高层级项目描述、边界定义以及主要可交付成果等，项目经理的角色定义也在这里。</p>
+<h4 id="3-管理质量"><a href="#3-管理质量" class="headerlink" title="3.管理质量"></a>3.管理质量</h4><p>质量保证（QA）：着眼于项目使用的过程，旨在高效地执行项目过程，包括遵守和满足标准，向相关方保证最终产品可以满足他们的需求、期望和要求。</p>
+<p>质量控制（QC）：通常用于在提交给客户验收前的内部测试。</p>
+<p>质量规划：是为在整个项目期间如何管理和核实质量提供指南和方向。</p>
+<h4 id="4-数据表现"><a href="#4-数据表现" class="headerlink" title="4.数据表现"></a>4.数据表现</h4><p><img src="/img/%E9%B1%BC%E9%AA%A8%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<p>石川图（又称“鱼骨图”、“why-why分析图”和“因果图”）：将问题陈述的原因分解为离散的分支，有助于识别问题的主要原因或根本原因。</p>
+<p><img src="/img/%E5%B8%95%E7%B4%AF%E6%89%98%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<p>帕累托图：通常用于分析导致问题发生的主要原因。</p>
+<p><img src="/img/%E7%9B%B4%E6%96%B9%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<p>直方图：通常用于统计问题出现的频率。</p>
+<p><img src="/img/%E6%8E%A7%E5%88%B6%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<p>控制图：通常用于分析过程是否稳定可控。</p>
+<p><img src="/img/%E6%95%A3%E7%82%B9%E5%9B%BE.png" srcset="/img/loading.gif" lazyload></p>
+<p>散点图：通常用于分析变量之间的关系。</p>
+<h4 id="5-估算技术"><a href="#5-估算技术" class="headerlink" title="5.估算技术"></a>5.估算技术</h4><p>自下而上估算（精度最高）：是对工作组成部分进行估算的一种方法。首先对单个工作包或活动的成本进行最具体、细致的估算，然后把这些细节性成本向上汇总或“滚动”到更高层次，用于后续报告和跟踪。</p>
+<p>类比估算：成本类比估算使用以往类似项目的参数值或属性来估算。</p>
+<p><img src="/img/%E4%B8%89%E7%82%B9%E4%BC%B0%E7%AE%97.png" srcset="/img/loading.gif" lazyload></p>
+<p>三点估算：通过考虑估算中的不确定性与风险，使用三种估算值来界定活动成本的近似区间，可以提高单点成本估算的准确性。</p>
+<p>参数估算（精度取决于参数准确性）：是指利用历史数据之间的统计关系和其他变量来进行项目工作的成本估算。</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/PMP/" class="category-chain-item">PMP</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/PMP/" class="print-no-link">#PMP</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>PMP易错易忘易混淆知识点总结</div>
+      <div>http://example.com/2024/09/18/PMP易错易忘易混淆知识点总结/</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>冯冯</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2024年9月18日</div>
+        </div>
+      
+      
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/2024/09/19/%E5%8D%81%E5%A4%A7%E7%AE%A1%E7%90%86%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/" title="十大管理思维导图">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">十大管理思维导图</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/2024/09/09/Java%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E5%88%9B%E5%BB%BA%E5%9E%8B%E6%A8%A1%E5%BC%8F/" title="Java设计模式-创建型模式-（单例模式、工厂模式、抽象工厂模式、建造者模式、原型模式）">
+                        <span class="hidden-mobile">Java设计模式-创建型模式-（单例模式、工厂模式、抽象工厂模式、建造者模式、原型模式）</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="margin-left: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+       <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a> <i class="iconfont icon-love"></i> <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a> 
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="busuanzi_container_site_pv" style="display: none">
+        总访问量 
+        <span id="busuanzi_value_site_pv"></span>
+         次
+      </span>
+    
+    
+      <span id="busuanzi_container_site_uv" style="display: none">
+        总访客数 
+        <span id="busuanzi_value_site_uv"></span>
+         人
+      </span>
+    
+    
+
+  
+
+</div>
+
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.4/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.20.1/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/5.0.0/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  <script  src="/js/local-search.js" ></script>
+
+  <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
